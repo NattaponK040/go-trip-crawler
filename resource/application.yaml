@@ -1,19 +1,13 @@
 server:
   port: 8989
-  mailSender: "aunjai.official.th@gmail.com"
-  passSender: "aunjaioc_P@ssw0rd"
+  mailSender:  
+  passSender:  
   otpLength: 6
 
 mongodb:
-  url: 'mongodb+srv://aunjai-ecom:vS1AdOZiQvj06Dfd@cluster0.rsac9.mongodb.net'
+  url:  
   dbName: DB_Data
-  wongnai-travel-review: wongnai_travel.review
-  wongnai-travel-data: wongnai_travel.data
-  wongnai-hotel-review: wongnai_hotel.review
-  wongnai-hotel-data: wongnai_hotel.data
-  wongnai-shop-review: wongnai_shop.review
-  wongnai-shop-data: wongnai_shop.data
-
+  
   tripadvior-travel-review: tripadvior_travel.review
   tripadvior-travel-data: tripadvior_travel.data
   tripadvior-hotel-review: tripadvior_hotel.review
