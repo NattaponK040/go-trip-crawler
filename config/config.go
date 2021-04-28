@@ -20,12 +20,6 @@ type Server struct {
 type Mongodb struct {
 	Url                string `mapstrcuture:"uri"`
 	DBname             string `mapstrcuture:"dbName"`
-	WonnaiTravelReview string `mapstrcuture:"wongnai-travel-review"`
-	WonnaiTravelData   string `mapstrcuture:"wongnai-travel-data"`
-	WonnaiHotelReview  string `mapstrcuture:"wongnai-hotel-review"`
-	WonnaiHotelData    string `mapstrcuture:"wongnai-hotel-data"`
-	WonnaiShopReview   string `mapstrcuture:"wongnai-shop-review"`
-	WonnaiShopData     string `mapstrcuture:"wongnai-shop-data"`
 
 	TripadvisorTravelReview string `mapstrcuture:"tripadvior-travel-review"`
 	TripadvisorTravelData   string `mapstrcuture:"tripadvior-travel-data"`
